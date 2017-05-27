@@ -1,0 +1,274 @@
+*{margin:0;
+padding:0;
+}
+
+body {
+    background-color:#E3E3E3;
+    margin:auto;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+    font-family: logo;
+    src: url(Img/metro.ttf)
+}
+.hoofdkleur1{
+    background-color:#47f0c9;
+    opacity:0.8;
+}
+.hoofdkleur2 {
+    background-color:#6146e8;
+    opacity:0.62;
+}
+.accentkleur1 {
+    background-color:#323232;
+}
+.accentkleur2 {
+    background-color:#FFF;
+}
+.headbanner{
+    width:100%;
+    background-image:url("http://mfas3.s3.amazonaws.com/objects/SC219607.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height:850px;
+    text-align:center;
+    line-height:850px;
+    color:white;
+ -webkit-filter: grayscale(40%);
+    font-family: 'Roboto', sans-serif;
+    font-size:1.75em;
+}
+.info{width:100%;
+max-width:1600px;
+    margin:auto;
+background-color:#E3E3E3;}
+
+.info .hoofdkleur1, .hoofdkleur2, .accentkleur1, .accentkleur2{
+    width:50px;
+    height:50px;
+    
+}
+
+.logo{
+width:50%;
+    float:left;
+    margin-top:5%;
+}
+.Voorbeeldkaart,.Voorbeeldkaart2{
+    height:500px;
+    width:30%;
+    background-color:#323232;
+    padding-top:2px;
+    position:relative;
+    float:left;
+    margin-left:30px;
+    margin-top:10px;
+    
+}
+.clear{clear:both;}
+.Voorbeeldkaart:hover{ transform: scale(1.1);
+transition:0.5s;}
+.inside,.inside2 {
+    height:50%;
+    width:95%;
+    margin:auto;
+    margin-top:2%;
+    position:relative;
+    background-color:white;
+    font-family:sans-serif;
+}
+
+.inside a,.inside2 a {
+ text-align:center;
+    border:1px solid black;
+    margin-left:20%;
+    top:30%;
+    position:absolute;
+    width:60%;
+    height:40%;
+    display:block;
+    
+}
+.inside a:hover{
+    background-color:#323232;
+    transition:ease-in 0.3s;
+    color:white;
+}
+
+.inside a p,.inside2 a p {
+    line-height:300%;
+}
+
+.Voorbeeldkaart .zwart,.Voorbeeldkaart2 .zwart{
+    color:white;
+    text-align:center;
+    border:1px solid white;
+    margin-left:20%;
+    top:65%;
+    position:absolute;
+    width:60%;
+    height:20%;
+    display:block;
+}
+
+.Voorbeeldkaart .zwart p, .Voorbeeldkaart2 .zwart p{
+    line-height:300%
+}
+
+.Voorbeeldkaart .zwart:hover{
+    background-color:white;
+    color:#323232;
+    border:1px solid black;
+    transition: ease-in 0.3s;
+}
+
+.Voorbeeldkaart2 .zwart{
+    border:none;
+}
+.inside2 a{
+    border:none;
+    font-size:25px;
+}
+.inside2 a p{
+    line-height:130%;
+    font-family:logo;
+}
+
+.Voorbeeldkaart2 .zwart p{
+    line-height:130%;
+        font-size:25px;
+}
+.Voorbeeldkaart a{
+    cursor:pointer;
+}
+@media screen and (max-width: #s) {
+    .Voorbeeldkaart {
+        float:none;
+        margin-bottom:2%;
+    }
+}
+
+.Voorbeeldkaart2 .zwart .titel{
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+.Voorbeeldkaart2 .zwart .tekst{
+   font-family: 'Lato', sans-serif;
+    font-size:20px;
+}
+.inhoud{max-width:1300px;
+
+margin:auto;
+}
+
+.kleuren{
+    float:left;
+    
+    margin-top:2%;
+}
+
+.Voorbeeldkaart2 .zwart img {
+    width:40%;
+    margin-left:15px;
+}
+
+.navimage{
+   background-image:url(Img/banner%20nav.jpeg);
+    height:200px;
+    width:100%;
+    margin-top:20px;
+    background-position: center;
+}
+.navonder ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #323232;
+    opacity:0.95;
+    
+}
+.navonder ul li{
+    float: left;
+}
+.navonder ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+        
+
+}
+
+.navonder a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    margin-top:2%;
+    margin-left:0%;
+    margin-bottom:2%;
+    background-color: none;
+    color: black;
+    padding: 12px 20px;
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #323232;
+    transition: ease 2s;
+color:white;}
+
+label{
+    margin-left:0.5%;
+    font-family: 'Lato', sans-serif;
+    margin-top:0.5%;
+}
+
+@media screen and (max-width: 900px) {
+    
+    
+    .Voorbeeldkaart,.Voorbeeldkaart2{
+     float:none;   
+        width:250px;
+    }
+    
+    .kleuren {
+        margin-left:25%;
+        margin-top:2%;
+    }
+    
+    .logo{
+        margin-left:25%;
+    }
+    .navonder {
+        display:block;
+        float:none;
+        
+    }
+    .navonder ul li{
+        width:100%;
+    }
+}

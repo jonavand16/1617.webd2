@@ -61,9 +61,9 @@ display:flex;
         background-size:cover;
      background-repeat:no-repeat;
     background-attachment: fixed;
-    background-position: 0px -300px;
+    background-position: center;
     display:flex;
-    background-image:url(../assets/emergency.jpeg);
+    background-image:url(../assets/services.jpeg);
     height:500px;
 }
 
